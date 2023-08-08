@@ -15,7 +15,7 @@ Create a conda environment and install the `cell2fate` package.
 conda create -y -n cell2fate_env python=3.9
 
 conda activate cell2fate_env
-pip install git+https://github.com/BayraktarLab/cell2fate
+pip install git+https://github.com/tobylanser/cell2fate
 ```
 
 To use this environment in a jupyter notebook, add a jupyter kernel for this environment:
