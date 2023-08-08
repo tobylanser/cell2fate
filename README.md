@@ -14,12 +14,12 @@ Create a conda environment and install the `cell2fate` package.
 ```bash
 git clone https://github.com/tobylanser/cell2fate
 cd cell2fate
-conda env create --name cell2fate_env --file=environments.yml
+conda env create --name cell2fate_env --file=environment.yml
 
 
 conda activate cell2fate_env
 
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+conda install pytorch==1.11.0 cudatoolkit=11.3 -c pytorch
 
 pip install git+https://github.com/tobylanser/cell2fate
 ```
