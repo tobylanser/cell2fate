@@ -12,10 +12,15 @@ We suggest using a separate conda environment for installing cell2fate.
 Create a conda environment and install the `cell2fate` package.
 
 ```bash
-conda create -y -n cell2fate_env python=3.9
+git clone https://github.com/tobylanser/cell2fate
+cd cell2fate
+conda env create --name cell2fate_env --file=environments.yml
+
 
 conda activate cell2fate_env
+
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+
 pip install git+https://github.com/tobylanser/cell2fate
 ```
 
